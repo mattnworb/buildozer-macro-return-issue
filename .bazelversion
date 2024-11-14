@@ -1,0 +1,15 @@
+7.4.1
+
+# N.B. always keep comments after the first line
+# see https://github.com/bazelbuild/bazelisk/issues/117#issuecomment-582266225
+
+# actions to take after when upgrading Bazel version
+
+# 1) update shell completion files
+#    $ git clone https://github.com/bazelbuild/bazel
+#    $ cd bazel
+#    $ git checkout <version>
+#    $ bazel build //scripts:bash_completion //scripts:fish_completion
+#    $ cp bazel-bin/scripts/bazel-complete.bash /path/to/tools/completion/
+#    $ cp bazel-bin/scripts/bazel.fish /path/to/tools/completion/
+#    $ cp scripts/zsh_completion/_bazel /path/to/tools/completion/

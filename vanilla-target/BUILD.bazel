@@ -1,0 +1,5 @@
+java_binary(
+    name = "vanilla-target",
+    srcs = ["src/main/java/com/mattnworb/example/Main.java"],
+    main_class = "com.mattnworb.example.Main",
+)

@@ -1,0 +1,1 @@
+bazel_dep(name = "buildozer", version = "7.1.2", dev_dependency = True)
