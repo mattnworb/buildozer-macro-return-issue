@@ -1,7 +1,0 @@
-load("//macro-target:macro.bzl", "macro_java_binary")
-
-macro_java_binary(
-    name = "macro-target",
-    srcs = ["src/main/java/com/mattnworb/example/Main.java"],
-    main_class = "com.mattnworb.example.Main",
-)
