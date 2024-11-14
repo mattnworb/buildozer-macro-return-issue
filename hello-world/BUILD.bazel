@@ -1,6 +1,6 @@
 load("//hello-world:macro.bzl", "macro_java_binary")
 
-macro_java_binary(
+foo = macro_java_binary(
     name = "hello-world",
     srcs = ["src/main/java/com/mattnworb/example/Main.java"],
     main_class = "com.mattnworb.example.Main",
